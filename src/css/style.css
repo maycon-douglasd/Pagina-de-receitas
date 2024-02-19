@@ -1,0 +1,78 @@
+body {
+    background-color: var(--neutral-eggshell);
+}
+
+.pagina {
+    background-color: var(--neutral-white);
+    width: 78vh;
+    justify-content: center;  
+    margin: 70px 55px 65px 600px;
+    border-radius: 15px;
+    display: block;
+    align-items: center;
+}
+
+.imagem {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imagem .img {
+    width: 650px;
+    height: 280px;
+    display: flex;
+    margin: 25px auto 0;
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 25px 29px;
+    font-size: 43px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+b {
+    color: var(--neutral-dark-charcoal);
+}
+
+.prato {
+    margin: 28px;
+    font-size: 18px;
+    color: var(--neutral-dark-charcoal);
+}
+
+.tempo-decorado {
+    background-color: var(--neutral-rose-white);
+    margin: 25px;
+    border-radius: 15px;
+    height: 150px;
+}
+
+h3 {
+    color: var(--primary-dark-raspberry);
+    font-weight: 400;
+    font-style: bold;
+    font-size: 23px;
+    padding: 15px;
+    
+    
+}
+
+.tempo-de-preparo {
+    font-size: 18px;
+    display: block;
+    align-items: center;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.tempo-de-preparo li:before {
+    content: '\2022';      
+    margin-left: -0.9rem;
+    color: var(--primary-dark-raspberry);
+    
+}
+

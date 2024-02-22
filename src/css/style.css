@@ -1,12 +1,14 @@
 body {
     background-color: var(--neutral-eggshell);
+    display: flex;
+    justify-content: center;
 }
 
 .pagina {
     background-color: var(--neutral-white);
-    width: 78vh;
-    justify-content: center;  
-    margin: 70px 55px 65px 600px;
+    width: 80vh;
+    justify-content: center;
+    margin: 70px 0;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -35,10 +37,6 @@ h1 {
     font-style: normal;
 }
 
-b {
-    color: var(--neutral-dark-charcoal);
-}
-
 .prato {
     margin: 28px;
     font-size: 18px;
@@ -49,7 +47,7 @@ b {
     background-color: var(--neutral-rose-white);
     margin: 25px;
     border-radius: 15px;
-    height: 150px;
+    height: 200px;
 }
 
 h3 {
@@ -57,23 +55,22 @@ h3 {
     font-weight: 400;
     font-style: bold;
     font-size: 23px;
-    padding: 15px;
-    
-    
+    font-family: "Protest Riot", sans-serif;
+    padding: 20px;        
 }
 
 .tempo-de-preparo {
     font-size: 18px;
     display: block;
     align-items: center;
-    margin-bottom: 30px;
     list-style: none;
+    
 }
 
 .tempo-de-preparo li:before {
     content: '\2022';      
     margin-left: -0.9rem;
     color: var(--primary-dark-raspberry);
+    line-height: 40px;
     
 }
-

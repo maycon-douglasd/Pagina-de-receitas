@@ -62,15 +62,40 @@ h3 {
 .tempo-de-preparo {
     font-size: 18px;
     display: block;
-    align-items: center;
-    list-style: none;
-    
+    /*align-items: center;*/
+    list-style: none;     
 }
 
 .tempo-de-preparo li:before {
     content: '\2022';      
     margin-left: -0.9rem;
     color: var(--primary-dark-raspberry);
-    line-height: 40px;
+    line-height: 40px;   
+}
+
+.ingredientes {
+    display: block;
+   width: 90%;
+}
+
+.itens {
+    font-size: 30px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: var(--primary-nutmeg);
+}
+
+.instrucoes-dos-ingredietes {
+    padding: 10px;
+    line-height: 35px;
+    color: var(--neutral-wenge-brown);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    border-bottom: solid 1px var(--neutral-light-grey);
+
     
 }
+
+

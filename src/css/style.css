@@ -5,42 +5,31 @@ body {
 }
 
 .pagina {
+    padding: 40px;
     background-color: var(--neutral-white);
-    width: 80vh;
+    width: 100vh;
     justify-content: center;
-    margin: 70px 0;
     border-radius: 15px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
-.imagem {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.imagem .img {
+.img {
     width: 100%;
-    height: 280px;
-    display: flex;
-    margin: 25px 20px;
     border-radius: 15px;
 }
 
 h1 {
-    margin: 15px 29px;
+    margin-top: 15px;
     font-size: 43px;
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: var(--neutral-dark-charcoal);
 }
 
 .prato {
-    margin: 28px;
+    margin-top: 28px;
     font-size: 18px;
-    color: var(--neutral-dark-charcoal);
+    color: var(--neutral-wenge-brown);
 }
 
 .tempo-decorado {
@@ -49,6 +38,14 @@ h1 {
     border-radius: 15px;
     height: 200px;
     padding: 15px;
+}
+
+.tempo-decorado li {
+    color: var(--neutral-wenge-brown);
+}
+
+.tempo-decorado b {
+    color: var(--neutral-dark-charcoal);
 }
 
 h3 {
@@ -62,7 +59,6 @@ h3 {
 .tempo-de-preparo {
     font-size: 18px;
     display: block;
-    /*align-items: center;*/
     list-style: none;     
 }
 
@@ -75,7 +71,7 @@ h3 {
 
 .ingredientes {
     display: block;
-   width: 90%;
+    width: 95%;
 }
 
 .itens {
@@ -87,15 +83,86 @@ h3 {
 }
 
 .instrucoes-dos-ingredietes {
-    padding: 10px;
+   padding: 10px;
     line-height: 35px;
     color: var(--neutral-wenge-brown);
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     border-bottom: solid 1px var(--neutral-light-grey);
-
-    
+    margin-left: 10px; 
 }
 
+.instrucoes {
+    display: block;
+    width: 95%;
+}
 
+.cuidados {
+    font-size: 30px;
+    font-family: "Protest Riot", sans-serif;
+    color: var(--primary-nutmeg);
+    font-weight: 400;
+    font-style: bold;
+}
+
+.passo-a-passo {
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 33px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: var(--neutral-wenge-brown);
+    border-bottom: 1px solid var(--neutral-light-grey);
+}
+
+.passo-a-passo li::marker {
+    font-size: 1.2em;
+    color: var(--primary-nutmeg);
+  }
+
+.passo-a-passo b {
+    color: var(--neutral-dark-charcoal);
+}
+
+.nutricao {
+    display: block;
+    width: 95%;
+}
+
+.nutrientes {
+    font-size: 30px;
+    font-family: "Protest Riot", sans-serif;
+    color: var(--primary-nutmeg);
+    font-weight: 400;
+    font-style: bold;
+}
+
+.tabela {
+    font-size: 18px;
+    color: var(--neutral-wenge-brown);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nutricao table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nutricao table tr td {
+    padding: 15px 30px; 
+    border-bottom: 1px solid var(--neutral-light-grey);
+    font-size: 20px;
+}
+
+.nutricao table tr td.item{
+    width: 300px;
+    color: var(--neutral-wenge-brown);
+}
+
+.nutricao table tr td.info {
+    color: var(--primary-nutmeg);
+    font-weight: 700;
+}

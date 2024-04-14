@@ -4,7 +4,7 @@
 <br>
 <p>Este recurso foi criado para colocar em prática os conhecimentos adquiridos nos cursos de HTML e CSS do <b>DevClub</b>, de um projeto <b>Frontend Web</b>.</p>
 
-<p>O objetivo do projeto foi recriar uma interface de uma página de receita, usando as tecnologias simples como <b>HTML e CSS</b>. Além de englobar os conceitos de: como estruturar um layout, e usando as tecnicas da Responsividade com Media Queries.</p>
+<p>O objetivo do projeto foi recriar uma interface de uma página de receita, usando as tecnologias simples como <b>HTML e CSS</b>. Além de englobar os conceitos de: como estruturar um layout, e usando as técnicas da Responsividade com Media Queries.</p>
 
 <h2>Layout do projeto</h2>
 <h3>Desktop</h3>
